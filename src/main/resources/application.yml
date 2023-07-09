@@ -6,6 +6,9 @@ management:
       enabled: true
     env:
       enabled: true
+# 엑추에이터만 따로 포트 변경 가능
+  server:
+    port: 8080
   endpoint:
     shutdown:
       enabled: true
