@@ -21,3 +21,6 @@ info:
   app:
     name: hello-actuator
     company: jh
+logging:
+  level:
+    hello.controller: debug
